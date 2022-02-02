@@ -1,0 +1,55 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+body, html{
+    height: 100%;
+}
+.top-area h1{
+    color: white;
+}
+.top-area p{
+    color: white;
+}
+.top-area{
+    background-color: #264653;
+    height: 100%;
+}
+#navbarNav{
+    display: flex;
+    justify-content: flex-end;
+}
+.navbar-nav{
+    padding: 15px;
+}
+.navbar-nav a{
+    color: white;
+}
+.top-middile{
+    display: flex;
+    justify-content: space-evenly;
+}
+.top-middile{
+    margin-top: 120px;
+}
+@media (max-width:668px){
+    .top-area{
+        height: 1100px;
+    }
+}
+/* @media (max-width:668px) {
+    .bikes-area{
+        margin-top: 530px;
+    }
+} */
+.all-bikes{
+    margin-left: 60px;
+}
+.gray-scale{
+   filter: grayscale(100%);
+}
+.all-news{
+    margin-left: 60px;
+}
+.all-clients{
+    margin-left: 60px;
+}
